@@ -39,6 +39,6 @@ where stalkerware_apps.app_id = app_ioc.app_id;
 
 -- View 3 
 create view ioc_data as 
-select iocs.ioc_type, iocs.ioc_type, iocs.severity_level, iocs.date_identified, app_ioc.relationship_type
+select iocs.ioc_type, iocs.severity_level, iocs.date_identified, app_ioc.relationship_type
 from iocs, app_ioc
 where iocs.ioc_id = app_ioc.ioc_id; 
