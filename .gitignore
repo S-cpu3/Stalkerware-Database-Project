@@ -1,0 +1,21 @@
+# Claude
+.claude/
+
+# Documents
+*.pdf
+*.txt
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.sql.gz
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
